@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+
+.card {
+    height: 300px;
+    width: 260px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: white;
+}
+
+.card img {
+    width: 155px;
+    height: 155px;
+    /* 50% ist gängiger für Kreise */
+    border-radius: 50%;
+    /* etwas heller und dicker */
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+}
+
+.card h1 {
+    font-size: 34px;
+    margin: 10px 0 5px;
+}
+
+.card p {
+    font-size: 20px;
+    color: #1e1919;
+    margin-bottom: 10px;
+}
+
+.card button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+}
+
+.card button:hover {
+    background-color: #36472a;
+}
